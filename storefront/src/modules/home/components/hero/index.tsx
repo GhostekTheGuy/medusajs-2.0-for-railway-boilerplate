@@ -1,5 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
+import { BoltSolid } from "@medusajs/icons"
 
 const Hero = () => {
   return (
@@ -26,6 +27,24 @@ const Hero = () => {
           <h1 style={{ textDecoration: "underline" }}>
             Visit the store
           </h1>
+        </a>
+        <a
+          href="/store"
+          target="_blank"
+        >
+          <Button variant="secondary">
+            Check our style
+            <BoltSolid />
+          </Button>
+        </a>
+        <a
+          href="/new-arrivals"
+          target="_blank"
+        >
+          <Button variant="secondary">
+            Discover New Arrivals
+            <BoltSolid />
+          </Button>
         </a>
       </div>
     </div>
