@@ -7,33 +7,7 @@ loadEnv(process.env.NODE_ENV, process.cwd());
 const backendUrl = process.env.RAILWAY_PUBLIC_DOMAIN_VALUE || 'http://localhost:9000';
 
 const plugins = [
-  // 'medusa-fulfillment-manual',
-  {
-    resolve: `medusa-plugin-algolia`,
-    options: {
-      // other options...
-      settings: {
-        products: {
-          indexSettings: {
-            searchableAttributes: ["title", "description"],
-            attributesToRetrieve: [
-              "id",
-              "title",
-              "description",
-              "handle",
-              "thumbnail",
-              "variants",
-              "variant_sku",
-              "options",
-              "collection_title",
-              "collection_handle",
-              "images",
-            ],
-          },
-        },
-      },
-    },
-  },
+  // 'medusa-fulfillment-manual'
 ];
 
 const modules = {
