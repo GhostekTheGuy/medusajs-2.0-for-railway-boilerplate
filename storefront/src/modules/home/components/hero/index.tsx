@@ -10,13 +10,13 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Well done! You have successfully deployed your Medusa 2.0 store on Railway!
+            Our new stock is coming out!
           </Heading>
           <Heading
             level="h2"
-            className="text-3xl leading-10 text-ui-fg-subtle font-normal"
+            className="text-xl leading-10 text-ui-bg-base-hover font-normal"
           >
-            Need help customizing your store?
+            Get ready and buy preorder.
           </Heading>
         </span>
         <a
