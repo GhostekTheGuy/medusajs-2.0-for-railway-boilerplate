@@ -21,25 +21,9 @@ const Hero = () => {
           </Heading>
         </span>
         <a
-          href="https://funkyton.com/medusajs-2-0-is-finally-here/"
-          target="_blank"
-        >
-          <h1 style={{ textDecoration: "underline" }}>
-            Visit the store
-          </h1>
-        </a>
-        <a
-          href="/store"
-          target="_blank"
-        >
-          <Button variant="secondary">
-            Check our style
-            <BoltSolid />
-          </Button>
-        </a>
-        <a
           href="/new-arrivals"
           target="_blank"
+          rel="noopener noreferrer" // Dodano dla bezpieczeństwa
         >
           <Button variant="secondary">
             Discover New Arrivals
