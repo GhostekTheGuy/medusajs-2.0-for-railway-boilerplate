@@ -22,9 +22,7 @@ const Hero = () => {
         </span>
         <a
           href="/new-arrivals"
-          target="_blank"
-          rel="noopener noreferrer" // Dodano dla bezpieczeństwa
-        >
+          target="_blank"        >
           <Button variant="secondary">
             Discover New Arrivals
             <BoltSolid />
