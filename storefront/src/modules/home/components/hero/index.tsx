@@ -7,29 +7,26 @@ const Hero = () => {
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
         <span>
           <Heading
-            className="text-3xl leading-10 text-white font-bold"
+            level="h1"
+            className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Our new stock is coming out!
+            Well done! You have successfully deployed your Medusa 2.0 store on Railway!
           </Heading>
           <Heading
             level="h2"
-            className="text-xl leading-10 text-ui-bg-base-hover font-normal"
+            className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Get ready and buy preorder.
+            Need help customizing your store?
           </Heading>
         </span>
         <a
-          href="/store"
+          href="https://funkyton.com/medusajs-2-0-is-finally-here/"
           target="_blank"
         >
-          <Button variant="secondary">
-            Check our style
-            <BoltSolid />
-          </Button>
+          <h1 style={{ textDecoration: "underline" }}>
+            Visit the store
+          </h1>
         </a>
-      </div>
-      <div className="absolute inset-0 w-full h-full">
-        <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=6701fb56&is=6700a9d6&hm=5932b221f3314bb379e99c00ccccb4d1c8abd8a694fbf02c6de8abfeff7e6130&" alt="LORI" className="w-full h-full object-cover" />
       </div>
     </div>
   )
