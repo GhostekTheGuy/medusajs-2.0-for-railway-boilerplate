@@ -1,5 +1,7 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
+// Dodaj import dla BoltSolid, jeśli jest potrzebny
+// import { BoltSolid } from "ścieżka/do/ikony"
 
 const Hero = () => {
   return (
@@ -20,13 +22,17 @@ const Hero = () => {
           </Heading>
         </span>
         <a
-          href="https://funkyton.com/medusajs-2-0-is-finally-here/"
+          href="/store"
           target="_blank"
         >
-          <h1 style={{ textDecoration: "underline" }}>
-            Visit the store
-          </h1>
+          <Button variant="secondary">
+            Check our style
+            <BoltSolid />
+          </Button>
         </a>
+      </div>
+      <div className="absolute inset-0 w-full h-full">
+        <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=6701fb56&is=6700a9d6&hm=5932b221f3314bb379e99c00ccccb4d1c8abd8a694fbf02c6de8abfeff7e6130&" alt="LORI" className="w-full h-full object-cover" />
       </div>
     </div>
   )
