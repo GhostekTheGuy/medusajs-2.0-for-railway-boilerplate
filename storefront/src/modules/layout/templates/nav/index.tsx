@@ -25,7 +25,11 @@ export default async function Nav() {
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
               data-testid="nav-store-link"
             >
-              Lori Store
+              <img 
+                src="https://cdn.discordapp.com/attachments/1285889428929253386/1285991315217317899/lori_low.png?ex=670208fe&is=6700b77e&hm=d57a80fda52f19759599a0023b08aaa3af298b07578746eaa492e53b7301950a&" 
+                alt="Lori Store Logo" 
+                className="h-full"
+              />
             </LocalizedClientLink>
           </div>
 
