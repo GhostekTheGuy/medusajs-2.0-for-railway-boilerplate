@@ -19,7 +19,7 @@ export default async function Footer() {
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
               <img 
-                src="https://cdn.discordapp.com/attachments/1285889428929253386/1285991184828727387/lori_low.png?ex=670208df&is=6700b75f&hm=04ba1e397d5e082a8a6d544dec72d00457a6120151f3371690ccfdd57d1bf35c&" 
+                src="https://imgur.com/EcWpANV" 
                 alt="Lori Store Logo" 
                 className="h-auto w-auto" // Możesz dostosować rozmiar obrazka
               />

@@ -26,7 +26,7 @@ export default async function Nav() {
               data-testid="nav-store-link"
             >
               <img 
-                src="https://cdn.discordapp.com/attachments/1285889428929253386/1285991315217317899/lori_low.png?ex=670208fe&is=6700b77e&hm=d57a80fda52f19759599a0023b08aaa3af298b07578746eaa492e53b7301950a&" 
+                src="https://imgur.com/EcWpANV" 
                 alt="Lori Store Logo" 
                 className="h-full"
               />
