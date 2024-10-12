@@ -31,7 +31,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="absolute inset-0 w-full h-full">
-        <img src="./images/kanapa.png" alt="Kanapa" />
+        <img src="https://i.imgur.com/FBMeMya.png" alt="Kanapa" />
       </div>
     </div>
   )
