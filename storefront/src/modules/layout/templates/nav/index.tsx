@@ -26,7 +26,7 @@ export default async function Nav() {
               data-testid="nav-store-link"
             >
               <img 
-                src="https://imgur.com/EcWpANV" 
+                src="https://i.imgur.com/EcWpANV.png" 
                 alt="Lori Store Logo" 
                 className="h-full"
               />

@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 w-full h-full">
         <img 
-          src="https://drive.google.com/file/d/10ia1ZFI2OU7tMrJTtE_9f3xF0YRXdtZq/view?usp=sharing" 
+          src="https://i.imgur.com/FBMeMya.png" 
           alt="Kanapa" 
           className="w-full h-full object-cover" 
         />

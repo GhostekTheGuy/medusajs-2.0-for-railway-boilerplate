@@ -19,7 +19,7 @@ export default async function Footer() {
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
               <img 
-                src="https://imgur.com/EcWpANV" 
+                src="https://i.imgur.com/EcWpANV.png" 
                 alt="Lori Store Logo" 
                 className="h-auto w-auto" // Możesz dostosować rozmiar obrazka
               />
